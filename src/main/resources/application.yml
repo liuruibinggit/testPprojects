@@ -1,5 +1,7 @@
 server:
   port: 8949
+  servlet:
+    context-path: /testPro
 spring:
   datasource:
     driver-class-name: com.mysql.cj.jdbc.Driver
